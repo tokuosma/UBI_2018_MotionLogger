@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.11)  4 DEC 2018 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.11)  4 DEC 2018 15:59
 entering extended mode
 **"c:/Repos/UBI_2018_MotionLogger/Final report/TeamAlpha_finalreport.tex"
 ("c:/Repos/UBI_2018_MotionLogger/Final report/TeamAlpha_finalreport.tex"
@@ -186,18 +186,18 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 ))) (TeamAlpha_finalreport.aux)
 \openout1 = `TeamAlpha_finalreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
  ("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
@@ -247,120 +247,81 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 160.
+LaTeX Font Info:    Try loading font information for U+msa on input line 164.
  ("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 160.
+LaTeX Font Info:    Try loading font information for U+msb on input line 164.
  ("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 160.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 164.
  ("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 160.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 164.
  ("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 160.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 164.
  ("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 160.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 164.
 
-Overfull \hbox (1.0793pt too wide) in paragraph at lines 162--171
-\T1/aer/m/it/9 Prepar-ing ACM SIG Pro-ceed-ings Us-ing L[]T[]X$\OT1/cmr/m/n/9 2[]$ \T1/aer/m/it/9 and BibT[]X\T1/aer/m/n/9 .
+Overfull \hbox (1.92503pt too wide) in paragraph at lines 304--312
+[]\T1/aer/m/n/9 Exergame term is widely used when video games are played
  []
 
-LaTeX Font Info:    Try loading font information for T1+aett on input line 302.
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-) [1{C:/Users/OWNER/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/OWNER/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ] [2]
-Package epstopdf Info: Source file: <fly.eps>
-(epstopdf)                    date: 2015-09-14 17:46:21
-(epstopdf)                    size: 155104 bytes
-(epstopdf)             Output file: <fly-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-04 12:52:57
-(epstopdf)                    size: 4257 bytes
-(epstopdf)             Command: <epstopdf --outfile=fly-eps-converted-to.pdf fly.eps>
-(epstopdf)             \includegraphics on input line 483.
+Package epstopdf Info: Source file: <intensity_evaluation.eps>
+(epstopdf)                    date: 2018-12-04 14:18:53
+(epstopdf)                    size: 134153 bytes
+(epstopdf)             Output file: <intensity_evaluation-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-12-04 14:19:16
+(epstopdf)                    size: 25233 bytes
+(epstopdf)             Command: <epstopdf --outfile=intensity_evaluation-eps-converted-to.pdf intensity_evaluation.eps>
+(epstopdf)             \includegraphics on input line 486.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./fly-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<fly-eps-converted-to.pdf, id=27, 34.1275pt x 32.12pt>
-File: fly-eps-converted-to.pdf Graphic file (type pdf)
-<use fly-eps-converted-to.pdf>
-Package pdftex.def Info: fly-eps-converted-to.pdf  used on input line 483.
-(pdftex.def)             Requested size: 34.1274pt x 32.1199pt.
-Package epstopdf Info: Source file: <fly.eps>
-(epstopdf)                    date: 2015-09-14 17:46:21
-(epstopdf)                    size: 155104 bytes
-(epstopdf)             Output file: <fly-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-04 12:52:57
-(epstopdf)                    size: 4257 bytes
-(epstopdf)             Command: <epstopdf --outfile=fly-eps-converted-to.pdf fly.eps>
-(epstopdf)             \includegraphics on input line 489.
-Package epstopdf Info: Output file is already uptodate.
-File: fly-eps-converted-to.pdf Graphic file (type pdf)
-<use fly-eps-converted-to.pdf>
-Package pdftex.def Info: fly-eps-converted-to.pdf  used on input line 489.
-(pdftex.def)             Requested size: 72.27492pt x 72.27565pt.
+pdfTeX warning: pdflatex (file ./intensity_evaluation-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<intensity_evaluation-eps-converted-to.pdf, id=20, 153.57375pt x 143.53625pt>
+File: intensity_evaluation-eps-converted-to.pdf Graphic file (type pdf)
+<use intensity_evaluation-eps-converted-to.pdf>
+Package pdftex.def Info: intensity_evaluation-eps-converted-to.pdf  used on input line 486.
+(pdftex.def)             Requested size: 153.57336pt x 143.53589pt.
 
-LaTeX Font Warning: Font shape `T1/aett/bx/n' undefined
-(Font)              using `T1/aett/m/n' instead on input line 491.
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
 
-Package epstopdf Info: Source file: <flies.eps>
-(epstopdf)                    date: 2015-09-14 17:46:16
-(epstopdf)                    size: 343737 bytes
-(epstopdf)             Output file: <flies-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-04 12:52:58
-(epstopdf)                    size: 9701 bytes
-(epstopdf)             Command: <epstopdf --outfile=flies-eps-converted-to.pdf flies.eps>
-(epstopdf)             \includegraphics on input line 504.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./flies-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<flies-eps-converted-to.pdf, id=28, 307.1475pt x 114.4275pt>
-File: flies-eps-converted-to.pdf Graphic file (type pdf)
-<use flies-eps-converted-to.pdf>
-Package pdftex.def Info: flies-eps-converted-to.pdf  used on input line 504.
-(pdftex.def)             Requested size: 307.14674pt x 114.42722pt.
-\c@theorem=\count117
-\c@definition=\count118
-
-Overfull \hbox (15.60826pt too wide) detected at line 568
-\OML/cmm/m/it/9 l \OT1/cmr/m/n/9 = [] \OML/cmm/m/it/9 f\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 x\OT1/cmr/m/n/9 ) = [] [] = [] \OML/cmm/m/it/9 g\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 x\OT1/cmr/m/n/9 ) \OMS/cmsy/m/n/9  [] [] \OT1/cmr/m/n/9 = 0 \OMS/cmsy/m/n/9  \OML/cmm/m/it/9 L \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 ;
  []
 
 (TeamAlpha_finalreport.bbl
+LaTeX Font Info:    Try loading font information for T1+aett on input line 1.
+ ("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
 Overfull \hbox (21.02989pt too wide) in paragraph at lines 1--1
-\T1/aer/m/n/9 (The Kumquat Con-sor-tium, email: \T1/aett/bx/n/9 jp-kumquat@consortium.net\T1/aer/m/n/9 ). 
+\T1/aer/m/n/9 (The Kumquat Con-sor-tium, email: \T1/aett/m/n/9 jp-kumquat@consortium.net\T1/aer/m/n/9 ). 
  []
 
-[3 <./fly-eps-converted-to.pdf>]) [4 <./flies-eps-converted-to.pdf>] (TeamAlpha_finalreport.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+) [3 <./intensity_evaluation-eps-converted-to.pdf>] [4] (TeamAlpha_finalreport.aux) ) 
 Here is how much of TeX's memory you used:
- 3227 strings out of 492970
- 43519 string characters out of 3126593
- 121459 words of memory out of 3000000
- 6962 multiletter control sequences out of 15000+200000
- 65049 words of font info for 94 fonts, out of 3000000 for 9000
+ 3187 strings out of 492970
+ 43097 string characters out of 3126593
+ 123447 words of memory out of 3000000
+ 6936 multiletter control sequences out of 15000+200000
+ 56459 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,37p,334b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on TeamAlpha_finalreport.pdf (4 pages, 264586 bytes).
+ 41i,12n,37p,713b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on TeamAlpha_finalreport.pdf (4 pages, 222167 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

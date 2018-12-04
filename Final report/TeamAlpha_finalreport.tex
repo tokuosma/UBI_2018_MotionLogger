@@ -47,6 +47,10 @@
 
 \documentclass{sig-alternate-05-2015}
 
+% Use Roman numerals for tables
+\renewcommand{\thetable}{\Roman{table}}
+
+
 
 \begin{document}
 
@@ -159,28 +163,28 @@ email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
 
 \maketitle
 \begin{abstract}
-This paper provides a sample of a \LaTeX\ document which conforms,
-somewhat loosely, to the formatting guidelines for
-ACM SIG Proceedings. It is an {\em alternate} style which produces
-a {\em tighter-looking} paper and was designed in response to
-concerns expressed, by authors, over page-budgets.
-It complements the document \textit{Author's (Alternate) Guide to
-Preparing ACM SIG Proceedings Using \LaTeX$2_\epsilon$\ and Bib\TeX}.
-This source file has been written with the intention of being
-compiled under \LaTeX$2_\epsilon$\ and BibTeX.
+% This paper provides a sample of a \LaTeX\ document which conforms,
+% somewhat loosely, to the formatting guidelines for
+% ACM SIG Proceedings. It is an {\em alternate} style which produces
+% a {\em tighter-looking} paper and was designed in response to
+% concerns expressed, by authors, over page-budgets.
+% It complements the document \textit{Author's (Alternate) Guide to
+% Preparing ACM SIG Proceedings Using \LaTeX$2_\epsilon$\ and Bib\TeX}.
+% This source file has been written with the intention of being
+% compiled under \LaTeX$2_\epsilon$\ and .
 
-The developers have tried to include every imaginable sort
-of ``bells and whistles", such as a subtitle, footnotes on
-title, subtitle and authors, as well as in the text, and
-every optional component (e.g. Acknowledgments, Additional
-Authors, Appendices), not to mention examples of
-equations, theorems, tables and figures.
+% The developers have tried to include every imaginable sort
+% of ``bells and whistles", such as a subtitle, footnotes on
+% title, subtitle and authors, as well as in the text, and
+% every optional component (e.g. Acknowledgments, Additional
+% Authors, Appendices), not to mention examples of
+% equations, theorems, tables and figures.
 
-To make best use of this sample document, run it through \LaTeX\
-and BibTeX, and compare this source code with the printed
-output produced by the dvi file. A compiled PDF version
-is available on the web page to help you with the
-`look and feel'.
+% To make best use of this sample document, run it through \LaTeX\
+% and BibTeX, and compare this source code with the printed
+% output produced by the dvi file. A compiled PDF version
+% is available on the web page to help you with the
+% `look and feel'.
 \end{abstract}
 
 
@@ -269,328 +273,258 @@ are using VR glasses with wireless control sticks. In Finkelstein et al.
 (2011) study they had problems with heart rate measurements during the game 
 session and we try to avoid those problems by using newer technique. 
 
-% The \textit{proceedings} are the records of a conference.
-% ACM seeks to give these conference by-products a uniform,
-% high-quality appearance.  To do this, ACM has some rigid
-% requirements for the format of the proceedings documents: there
-% is a specified format (balanced  double columns), a specified
-% set of fonts (Arial or Helvetica and Times Roman) in
-% certain specified sizes (for instance, 9 point for body copy),
-% a specified live area (18 $\times$ 23.5 cm [7" $\times$ 9.25"]) centered on
-% the page, specified size of margins (1.9 cm [0.75"]) top, (2.54 cm [1"]) bottom
-% and (1.9 cm [.75"]) left and right; specified column width
-% (8.45 cm [3.33"]) and gutter size (.83 cm [.33"]).
+\section{RELATED WORK}
+\subsection{Virtual reality games}
+If the system consists a human operator, a human-machine interface and 
+a computer it can be called a virtual environment. Environment has 
+three-dimensional space where the objects are placed. 
+(Durlach \& Mavor 1995). Virtual reality games are characterized by high 
+level of presence and immersion, or the feeling of really being a part 
+of the virtual environment (Steuer, J. 1992).
 
-% The good news is, with only a handful of manual
-% settings\footnote{Two of these, the {\texttt{\char'134 numberofauthors}}
-% and {\texttt{\char'134 alignauthor}} commands, you have
-% already used; another, {\texttt{\char'134 balancecolumns}}, will
-% be used in your very last run of \LaTeX\ to ensure
-% balanced column heights on the last page.}, the \LaTeX\ document
-% class file handles all of this for you.
+Adaptation of VR systems has been partly hampered by many users 
+experiencing a set of symptoms similar to motion sickness. This set 
+of symptoms is commonly called cybersickness. Possible symptoms include 
+but are not limited to nausea, dizziness, headaches and fatigue. 
+Studies have estimated that 30 \% - 80 \% percent of VR users 
+experience these symptoms to some extent (Rebenitsch \& Owen, 2016).
 
-% The remainder of this document is concerned with showing, in
-% the context of an ``actual'' document, the \LaTeX\ commands
-% specifically available for denoting the structure of a
-% proceedings paper, rather than with giving rigorous descriptions
-% or explanations of such commands.
+\subsubsection{HTC Vive, Oculus and Sony Playstation}
+In recent years, many new consumer virtual reality systems have entered 
+the market. Commonly these systems include an immersive head mounted 
+display (HMD) and motion controllers. Popular examples of these systems 
+include products such as Oculus Rift, HTC Vive or Playstation VR. Advanced 
+head tracking and motion controllers combine to produce a high level of 
+immersion and allow the user to explore and interact with their immediate 
+surroundings in a natural fashion. Although Amazon sales rankings have 
+recently shown a declining interest in VR devices (Fruhlinger, 2018), 
+millions of devices have been shipped worldwide.
 
-\section{The {\secit Body} of The Paper}
-Typically, the body of a paper is organized
-into a hierarchical structure, with numbered or unnumbered
-headings for sections, subsections, sub-subsections, and even
-smaller sections.  The command \texttt{{\char'134}section} that
-precedes this paragraph is part of such a
-hierarchy.\footnote{This is the second footnote.  It
-starts a series of three footnotes that add nothing
-informational, but just give an idea of how footnotes work
-and look. It is a wordy one, just so you see
-how a longish one plays out.} \LaTeX\ handles the numbering
-and placement of these headings for you, when you use
-the appropriate heading commands around the titles
-of the headings.  If you want a sub-subsection or
-smaller part to be unnumbered in your output, simply append an
-asterisk to the command name.  Examples of both
-numbered and unnumbered headings will appear throughout the
-balance of this sample document.
+\subsubsection{Exergames}
+Exergame term is widely used when video games are played to promote 
+physical activity (Oh \& Yang, 2010). Children are easier to motivate 
+to exercise with a fun way and childhood obesity can be prevent by 
+exergames (Staiano et al. 2013). According to Staiano et al. (2013) 
+children who were competitive exergames did not lose weight while 
+cooperative “exergamers” did. Studies with elderly shows that with 
+them the fun is not the driven force to play but the usefulness of 
+the related physical and cognitive abilities is (Chen et al. 2018).
 
-Because the entire article is contained in
-the \textbf{document} environment, you can indicate the
-start of a new paragraph with a blank line in your
-input file; that is why this sentence forms a separate paragraph.
+Study conducted by Plante et al. (2003) found evidence that combining 
+VR with physical exercise can boost the mood benefits associated with 
+normal exercise. In the study people who were immersed in a virtual 
+environment while riding an exercise bike generally reported feeling 
+more energized and less tired than the people in the control group 
+(Plante et al. 2003). 
 
-\subsection{Type Changes and {\subsecit Special} Characters}
-We have already seen several typeface changes in this sample.  You
-can indicate italicized words or phrases in your text with
-the command \texttt{{\char'134}textit}; emboldening with the
-command \texttt{{\char'134}textbf}
-and typewriter-style (for instance, for computer code) with
-\texttt{{\char'134}texttt}.  But remember, you do not
-have to indicate typestyle changes when such changes are
-part of the \textit{structural} elements of your
-article; for instance, the heading of this subsection will
-be in a sans serif\footnote{A third footnote, here.
-Let's make this a rather short one to
-see how it looks.} typeface, but that is handled by the
-document class file. Take care with the use
-of\footnote{A fourth, and last, footnote.}
-the curly braces in typeface changes; they mark
-the beginning and end of
-the text that is to be in the different typeface.
+Fitzgerald et al. (2010) have shown that exergames has been used successfully 
+also in therapy. They used a wobble-board based on video game to motivate 
+the patients. Their results show that patients are more motivated for 
+training when comparing to those who does similar exercises at a class 
+with a therapist. Dynamic stability in both test groups gained and there 
+were no significant differences between groups. (Fitzgerald et al. 2010)
 
-You can use whatever symbols, accented characters, or
-non-English characters you need anywhere in your document;
-you can find a complete list of what is
-available in the \textit{\LaTeX\
-User's Guide}\cite{Lamport:LaTeX}.
+\subsection{Heart rate and exercise intensity}
+Heart rate measurements have long been used to monitor exercise intensity 
+(Achten \& Jeukendrup 2003). A common way to represent exercise intensity 
+using heart rate is to calculate the current heart rate as a percentage 
+of the maximum heart rate: 
 
-\subsection{Math Equations}
-You may want to display math equations in three distinct styles:
-inline, numbered or non-numbered display.  Each of
-the three are discussed in the next sections.
+\begin{equation}\%HR = \frac{HR}{HR_{max}}\end{equation}
 
-\subsubsection{Inline (In-text) Equations}
-A formula that appears in the running text is called an
-inline or in-text formula.  It is produced by the
-\textbf{math} environment, which can be
-invoked with the usual \texttt{{\char'134}begin. . .{\char'134}end}
-construction or with the short form \texttt{\$. . .\$}. You
-can use any of the symbols and structures,
-from $\alpha$ to $\omega$, available in
-\LaTeX\cite{Lamport:LaTeX}; this section will simply show a
-few examples of in-text equations in context. Notice how
-this equation: \begin{math}\lim_{n\rightarrow \infty}x=0\end{math},
-set here in in-line math style, looks slightly different when
-set in display style.  (See next section).
+Although the maximum heart rate varies greatly between individuals, 
+it can be estimated without measurement if the persons age is known. 
+For example, Robergs et al. (2002) suggest the formula:
 
-\subsubsection{Display Equations}
-A numbered display equation -- one set off by vertical space
-from the text and centered horizontally -- is produced
-by the \textbf{equation} environment. An unnumbered display
-equation is produced by the \textbf{displaymath} environment.
+\begin{equation}HR_{max} = 205.8 - 0.685 * age\end{equation}
 
-Again, in either environment, you can use any of the symbols
-and structures available in \LaTeX; this section will just
-give a couple of examples of display equations in context.
-First, consider the equation, shown as an inline equation above:
-\begin{equation}\lim_{n\rightarrow \infty}x=0\end{equation}
-Notice how it is formatted somewhat differently in
-the \textbf{displaymath}
-environment.  Now, we'll enter an unnumbered equation:
-\begin{displaymath}\sum_{i=0}^{\infty} x + 1\end{displaymath}
-and follow it with another numbered equation:
-\begin{equation}\sum_{i=0}^{\infty}x_i=\int_{0}^{\pi+2} f\end{equation}
-just to demonstrate \LaTeX's able handling of numbering.
+as the most acceptable estimate of maximum heart rate. Gulati et al. 
+(2010) propose a slightly different age scaling factor of 0.88 for women. 
+United States Center of Disease Control (2015) recommends target heart 
+rates of 50 - 70 \% for moderate exercise and 70 - 85 \% for vigorous 
+exercise.
 
-\subsection{Citations}
-Citations to articles \cite{bowman:reasoning,
-clark:pct, braams:babel, herlihy:methodology},
-conference proceedings \cite{clark:pct} or
-books \cite{salas:calculus, Lamport:LaTeX} listed
-in the Bibliography section of your
-article will occur throughout the text of your article.
-You should use BibTeX to automatically produce this bibliography;
-you simply need to insert one of several citation commands with
-a key of the item cited in the proper location in
-the \texttt{.tex} file \cite{Lamport:LaTeX}.
-The key is a short reference you invent to uniquely
-identify each work; in this sample document, the key is
-the first author's surname and a
-word from the title.  This identifying key is included
-with each item in the \texttt{.bib} file for your article.
+\section{SENSING APPLICATION}
+\subsection{Design}
+Our research is based around VR games. VR game set includes VR glasses, 
+motion controllers, base stations and a computer. The purpose is to track 
+the movement, our goal is to capture the data directly from the VR 
+hardware. 
 
-The details of the construction of the \texttt{.bib} file
-are beyond the scope of this sample document, but more
-information can be found in the \textit{Author's Guide},
-and exhaustive details in the \textit{\LaTeX\ User's
-Guide}\cite{Lamport:LaTeX}.
+Measuring the heart rate, we use sensor that allows continuous measurement 
+during test. The best solution is to have a heart rate monitor which can 
+be attached to player’s wrist since it will not fall or start moving so 
+easily. Additionally, we measure the resting heart rate before performance.
 
-This article shows only the plainest form
-of the citation command, using \texttt{{\char'134}cite}.
-This is what is stipulated in the SIGS style specifications.
-No other citation format is endorsed or supported.
+Participants are going to be interviewed before game session, between two 
+game sessions and after both game sessions. Participants are asked to 
+answer questions about their general background, exercising background, 
+gaming background and about the VR game experience. We also ask if user 
+felt any cybersickness during or after the game sessions. 
 
-\subsection{Tables}
-Because tables cannot be split across pages, the best
-placement for them is typically the top of the page
-nearest their initial cite.  To
-ensure this proper ``floating'' placement of tables, use the
-environment \textbf{table} to enclose the table's contents and
-the table caption.  The contents of the table itself must go
-in the \textbf{tabular} environment, to
-be aligned properly in rows and columns, with the desired
-horizontal and vertical rules.  Again, detailed instructions
-on \textbf{tabular} material
-is found in the \textit{\LaTeX\ User's Guide}.
+There will be used two different games and each participant will play both. 
+Other game is more hectic, an exergame-like game, and other is easier going.
 
-Immediately following this sentence is the point at which
-Table 1 is included in the input file; compare the
-placement of the table here with the table in the printed
-dvi output of this document.
+\subsubsection{Cybersickness and heart rate}
+As mentioned earlier, many VR users experience some degree of cybersickness. 
+High levels of nausea can lead to increased heart rate without any physical 
+activity (Nalivaiko et al. 2015). In order to find out if the observed increase 
+in heart rate is caused by onset of cybersickness instead of exercise, we ask 
+our test users the Simulator Sickness Questionnaire (SSQ) (Kennedy et al. 1993) 
+after the game sessions. The SSQ, which was originally developed for military air 
+simulation use, has been widely used in cybersickness research. The SSQ measures 
+16 different symptoms on a four-point scale. The symptoms are grouped to three 
+different categories: oculomotor symptoms, disorientation, and nausea. From 
+the raw data a score for each of the three main symptom categories and a total 
+score can be calculated (SSQ-O, SSQ-D, SSQ-N, and SSQ-T respectively). As nausea 
+is the symptom mostly linked with increased heart rate, we will have to keep an 
+eye on the SSQ-N scores.
 
-\begin{table}
+\subsection{Implementation}
+VR gaming device which includes HTC Vive visor, two motion controllers and 
+two base stations are set in demo room inside Oulu university faculty of 
+information technology and electrical engineering. We gather 17 participants 
+to play two different games and we measure heart rate and movement data from 
+them while they are playing. For heart rate measurement we are using two 
+Fitbit Charge HR wristband devices as other one can be placed on next participant’s 
+wrist while he/she is waiting his/her turn. Also, if either of the devices 
+stops working, we can still use the other one for measuring. This way we 
+can ensure data collection and keep the game sessions going on fluently. 
+Data from these devices are synchronized to Fitbit web service via Fitbit 
+mobile application. Heart rate data is extracted from these devices afterwards 
+using 3rd party web service called “Pulse Watch” and exported to csv-file which 
+can be then downloaded for further analyzing. Collected heart rate data will 
+be from each second during game session.
+
+For movement data collecting we are using additional capture software which 
+is run parallel to the VR game. This software will collect position data from 
+VR visor and two motion controllers and save that position data with timestamps 
+to a plain text file for later analysis. 
+
+At the beginning the participant is sat down and Fitbit heart rate bracelet 
+is attached to their wrist. Then participants will be interviewed. Interview 
+includes question about their background of exercising, video games and general. 
+They are also asked to fill consent form (Attachment 1). Interview continues after 
+first gaming session with questions about the exact gaming session. After second 
+gaming session participants are interviewed with questions about the latter gaming 
+session. Final interview also includes questions about SSQ, and questions based 
+on their experience about exergames. 
+
+We start each game session by introducing participant to the game he/she will be 
+playing. Participant will be given 10 minutes of time to play each of the games. 
+Each participant will be given an ID number which is then used to connect heart 
+rate data, movement data and questionnaire answers together.
+
+\section{EVALUATION}
+\subsection{Evaluation plan}
+Based on the study results, we are trying to find clear evidence that 
+playing VR games really have health benefits and they activate and 
+inspire people to move more than usually. We are also keen on finding 
+results we did not expect based on interviews and data analysis.
+
+We will compare heart rates of the user between two different VR games 
+to detect if the exergame have raised users heart rate. We also detect 
+the movements of hands and head during game session to compare if the 
+exergame has moved users. By movement detection we exclude users heart 
+rate increase caused by excitement. 
+
+Interview results may also be interested here. Even we hope to detect 
+that more hectic game, BeatSaber, moves people more and raises their 
+heart beat than QuiVR, participants may still think that it is neither 
+fun nor exercising. It is also interesting to see if people would more 
+easily recommend exergames to others instead of using those by themselves. 
+It would also be interesting to see whether users rate more hectic 
+BeatSaber being more intense than QuiVR. It is interesting to see if the 
+game order matters to users thoughts.
+
+\subsection{Research data}
+During the game session we gathered three types of data from test users. 
+We gave them a Fitbit bracelet which measured heart rate in real time. 
+We collected qualitative data from users by interviewing users before 
+game session, after first game session and finally after second game 
+session. We also had SSQ interview to participants. We gathered movement 
+data from hand consoles and VR glasses via capture software which was 
+run parallel to the VR game.
+\subsubsection{Interview data}
+Test users were at the beginning asked to fill consent form. 
+There their permission to use their data in this study was asked. After 
+users were given their permission, the interviews were continued. First, 
+they were asked some general information about their age and gender. 
+Age information was gathered in order to calculate theoretical maximum 
+heart rate. Low rate of women participants prevents data comparison 
+between genders. In the interview, users’ weekly activity with sports 
+and with computer or console games were asked as for background information. 
+Users were also asked if they have used VR applications before. After first 
+phase interview user played ten minutes either BeatSaber or QuiVR game. 
+
+After first game session interview was continued by asking how user was 
+feeling after the game. Users’ were also asked how intense they would 
+rate the game session in a scale from one to five. User then played 
+ten minutes the second game.
+
+After second game session user were asked again how they feel, and 
+how intense they would rate the game session. To cut off the effect 
+of simulator sickness, user was asked sixteen questions according 
+to Kennedy et al. (1993) SSQ. Next part of the interview we asked 
+if user sees himself/herself playing VR games for exercise meaning 
+and for fun in scale one to five. And for final part we asked, 
+would user play virtual reality games in exercise context and would 
+he/she recommend that to others in scale one to five. Users had 
+also a chance to say any comment about the whole experience.
+
+Interview results about user’s physical activity and computer or 
+console game activity, as well as if user would play VR games and 
+if user would play them for exercise purpose or if they would 
+encourage user to exercise more and if user would recommend VR 
+games for exercise purpose to someone else, are shown in Table I. 
+Users were also asked to rank the intense of the game session 
+(from scale 1 to 5) after each session. Their results are shown 
+in Figure 1. 
+
+\begin{figure}
 \centering
-\caption{Frequency of Special Characters}
-\begin{tabular}{|c|c|l|} \hline
-Non-English or Math&Frequency&Comments\\ \hline
-\O & 1 in 1,000& For Swedish names\\ \hline
-$\pi$ & 1 in 5& Common in math\\ \hline
-\$ & 4 in 5 & Used in business\\ \hline
-$\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
-\hline\end{tabular}
-\end{table}
-
-To set a wider table, which takes up the whole width of
-the page's live area, use the environment
-\textbf{table*} to enclose the table's contents and
-the table caption.  As with a single-column table, this wide
-table will ``float" to a location deemed more desirable.
-Immediately following this sentence is the point at which
-Table 2 is included in the input file; again, it is
-instructive to compare the placement of the
-table here with the table in the printed dvi
-output of this document.
-
+\includegraphics{intensity_evaluation}
+\caption
+    {
+        Users evaluation of intense of game session. 
+    }
+\end{figure}
 
 \begin{table*}
 \centering
-\caption{Some Typical Commands}
-\begin{tabular}{|c|c|l|} \hline
-Command&A Number&Comments\\ \hline
-\texttt{{\char'134}alignauthor} & 100& Author alignment\\ \hline
-\texttt{{\char'134}numberofauthors}& 200& Author enumeration\\ \hline
-\texttt{{\char'134}table}& 300 & For tables\\ \hline
-\texttt{{\char'134}table*}& 400& For wider tables\\ \hline\end{tabular}
+\caption
+{
+    Survey results.\newline
+    Q1: How many times a week you do sports? (at least 30 mins of exercising per time)\newline
+    Q2: How many hours do you usually play computer games or console games in a week?\newline
+    Q3: Could you see yourself playing virtual reality games more often just for fun?\newline
+    Q4: Could you see yourself playing a virtual reality games more often for exercise purposes?\newline
+    Q5: Would VR playing encourage you to exercise more?\newline
+    Q6: Would you recommend VR gaming as an exercise for anyone?\newline
+}
+\begin{tabular}{c|c c c c c c} \hline
+    % ID&How many times a week you do sports? (at least 30 mins of exercising per time)&How many hours do you usually play computer games or console games in a week?&Could you see yourself playing virtual reality games more often just for fun?&Could you see yourself playing a virtual reality games more often for exercise purposes?&Would VR playing encourage you to exercise more?&Would you recommend VR gaming as an exercise for anyone?\\ \hline
+    ID&Q1&Q2&Q3&Q4&Q5&Q6 \\ \hline
+    3&2&10&5&5&4&5\\
+    4&3&0&5&3&3&3\\
+    7&3&7&5&3&2&4\\
+    8&4&0&4&4&2&2\\
+    10&3&3&5&4&2&3\\
+    12&4&1&4&2&4&5\\
+    13&2&2&5&3&2&5\\
+    16&3&25&5&1&1&2\\
+    17&4&0&4&1&3&2\\
+    18&5&4&4&1&1&2\\
+    22&4&5&4&3&2&2\\
+    23&2&5&5&3&4&2\\
+    25&1&0&3&4&2&5\\
+    26&1&30&5&4&3&3\\
+    27&10&4&5&3&2&4\\
+    29&3&0&5&4&4&4\\
+    30&1&2&5&2&4&5\\ \hline
+    Avg&3.2&5.8&4.6&2.9&2.6&3.4
+\end{tabular}
 \end{table*}
-% end the environment with {table*}, NOTE not {table}!
-
-\subsection{Figures}
-Like tables, figures cannot be split across pages; the
-best placement for them
-is typically the top or the bottom of the page nearest
-their initial cite.  To ensure this proper ``floating'' placement
-of figures, use the environment
-\textbf{figure} to enclose the figure and its caption.
-
-This sample document contains examples of \textbf{.eps} files to be
-displayable with \LaTeX.  If you work with pdf\LaTeX, use files in the
-\textbf{.pdf} format.  Note that most modern \TeX\ system will convert
-\textbf{.eps} to \textbf{.pdf} for you on the fly.  More details on
-each of these is found in the \textit{Author's Guide}.
-
-\begin{figure}
-\centering
-\includegraphics{fly}
-\caption{A sample black and white graphic.}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[height=1in, width=1in]{fly}
-\caption{A sample black and white graphic
-that has been resized with the \texttt{includegraphics} command.}
-\end{figure}
-
-
-As was the case with tables, you may want a figure
-that spans two columns.  To do this, and still to
-ensure proper ``floating'' placement of tables, use the environment
-\textbf{figure*} to enclose the figure and its caption.
-and don't forget to end the environment with
-{figure*}, not {figure}!
-
-\begin{figure*}
-\centering
-\includegraphics{flies}
-\caption{A sample black and white graphic
-that needs to span two columns of text.}
-\end{figure*}
-
-
-\begin{figure}
-\centering
-% \includegraphics[height=1in, width=1in]{}
-\caption{A sample black and white graphic that has
-been resized with the \texttt{includegraphics} command.}
-\vskip -6pt
-\end{figure}
-
-\subsection{Theorem-like Constructs}
-Other common constructs that may occur in your article are
-the forms for logical constructs like theorems, axioms,
-corollaries and proofs.  There are
-two forms, one produced by the
-command \texttt{{\char'134}newtheorem} and the
-other by the command \texttt{{\char'134}newdef}; perhaps
-the clearest and easiest way to distinguish them is
-to compare the two in the output of this sample document:
-
-This uses the \textbf{theorem} environment, created by
-the\linebreak\texttt{{\char'134}newtheorem} command:
-\newtheorem{theorem}{Theorem}
-\begin{theorem}
-Let $f$ be continuous on $[a,b]$.  If $G$ is
-an antiderivative for $f$ on $[a,b]$, then
-\begin{displaymath}\int^b_af(t)dt = G(b) - G(a).\end{displaymath}
-\end{theorem}
-
-The other uses the \textbf{definition} environment, created
-by the \texttt{{\char'134}newdef} command:
-\newdef{definition}{Definition}
-\begin{definition}
-If $z$ is irrational, then by $e^z$ we mean the
-unique number which has
-logarithm $z$: \begin{displaymath}{\log e^z = z}\end{displaymath}
-\end{definition}
-
-Two lists of constructs that use one of these
-forms is given in the
-\textit{Author's  Guidelines}.
- 
-There is one other similar construct environment, which is
-already set up
-for you; i.e. you must \textit{not} use
-a \texttt{{\char'134}newdef} command to
-create it: the \textbf{proof} environment.  Here
-is a example of its use:
-\begin{proof}
-Suppose on the contrary there exists a real number $L$ such that
-\begin{displaymath}
-\lim_{x\rightarrow\infty} \frac{f(x)}{g(x)} = L.
-\end{displaymath}
-Then
-\begin{displaymath}
-l=\lim_{x\rightarrow c} f(x)
-= \lim_{x\rightarrow c}
-\left[ g{x} \cdot \frac{f(x)}{g(x)} \right ]
-= \lim_{x\rightarrow c} g(x) \cdot \lim_{x\rightarrow c}
-\frac{f(x)}{g(x)} = 0\cdot L = 0,
-\end{displaymath}
-which contradicts our assumption that $l\neq 0$.
-\end{proof}
-
-Complete rules about using these environments and using the
-two different creation commands are in the
-\textit{Author's Guide}; please consult it for more
-detailed instructions.  If you need to use another construct,
-not listed therein, which you want to have the same
-formatting as the Theorem
-or the Definition\cite{salas:calculus} shown above,
-use the \texttt{{\char'134}newtheorem} or the
-\texttt{{\char'134}newdef} command,
-respectively, to create it.
-
-\subsection*{A {\secit Caveat} for the \TeX\ Expert}
-Because you have just been given permission to
-use the \texttt{{\char'134}newdef} command to create a
-new form, you might think you can
-use \TeX's \texttt{{\char'134}def} to create a
-new command: \textit{Please refrain from doing this!}
-Remember that your \LaTeX\ source code is primarily intended
-to create camera-ready copy, but may be converted
-to other forms -- e.g. HTML. If you inadvertently omit
-some or all of the \texttt{{\char'134}def}s recompilation will
-be, to say the least, problematic.
 
 \section{Conclusions}
 This paragraph will end the body of this sample document.
