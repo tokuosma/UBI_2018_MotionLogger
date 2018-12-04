@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex TeamAlpha_finalreport"] 1543931800 "TeamAlpha_finalreport.aux" "TeamAlpha_finalreport.bbl" "TeamAlpha_finalreport" 1543932001
+["bibtex TeamAlpha_finalreport"] 1543959060 "TeamAlpha_finalreport.aux" "TeamAlpha_finalreport.bbl" "TeamAlpha_finalreport" 1543959097
   "C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/bibtex/abbrv.bst" 1291864736 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "TeamAlpha_finalreport.aux" 1543932000 3926 66644541f98ad3607fede735ec2ab145 ""
-  "sigproc.bib" 1442238370 1492 fd49fbf6dc5088cbf92d849d7a523bfd ""
+  "TeamAlpha_finalreport.aux" 1543959093 4736 1dba848122fa99b44ca8e905f5e4fe3f ""
+  "teamalpha.bib" 1543959033 4993 16375c225caf496849857d4653e2837d ""
   (generated)
   "TeamAlpha_finalreport.blg"
   "TeamAlpha_finalreport.bbl"
-["pdflatex"] 1543931998 "c:/Repos/UBI_2018_MotionLogger/Final report/TeamAlpha_finalreport.tex" "TeamAlpha_finalreport.pdf" "TeamAlpha_finalreport" 1543932001
+["pdflatex"] 1543959060 "c:/Repos/UBI_2018_MotionLogger/Final report/TeamAlpha_finalreport.tex" "TeamAlpha_finalreport.pdf" "TeamAlpha_finalreport" 1543959097
   "C:/Users/OWNER/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1539240064 4162303 3c12c9c79b5791d400451eb1967b7223 ""
   "C:/Users/OWNER/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1543920718 80423 3cfba73105275d3ad410701d89fbdf7a ""
   "C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -126,14 +126,14 @@
   "C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/tex/latex/psnfss/t1ptm.fd" 1137107030 774 61d7da1e9f9e74989b196d147e623736 ""
   "C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty" 1419270738 5114 9c1069474ff71dbc47d5006555e352d3 ""
-  "TeamAlpha_finalreport.aux" 1543932000 3926 66644541f98ad3607fede735ec2ab145 ""
-  "TeamAlpha_finalreport.bbl" 1543931801 52 0eba253fc001332e731e8aba3f23127b "bibtex TeamAlpha_finalreport"
-  "TeamAlpha_finalreport.tex" 1543931997 28723 a997ecdd0b5254385dc37edf3f4f407b ""
+  "TeamAlpha_finalreport.aux" 1543959093 4736 1dba848122fa99b44ca8e905f5e4fe3f ""
+  "TeamAlpha_finalreport.bbl" 1543959085 3717 e7eca6c43d891451cb9107f28cb2f58d "bibtex TeamAlpha_finalreport"
+  "TeamAlpha_finalreport.tex" 1543959097 28714 8ca37aecfea2a811851528265dbaa6ca ""
   "acmcopyright.sty" 1442238358 9626 03a22ffcc9f51aaef67ac6ed43847230 ""
-  "c:/Repos/UBI_2018_MotionLogger/Final report/TeamAlpha_finalreport.tex" 1543931997 28723 a997ecdd0b5254385dc37edf3f4f407b ""
+  "c:/Repos/UBI_2018_MotionLogger/Final report/TeamAlpha_finalreport.tex" 1543959097 28714 8ca37aecfea2a811851528265dbaa6ca ""
   "intensity_evaluation.eps" 1543925933 134153 2fdf6bf36063d9bfa20b41ae166b394e ""
   "sig-alternate-05-2015.cls" 1442238352 66374 028fab8b5a1d1385fe551866f87395cf ""
   (generated)
-  "TeamAlpha_finalreport.pdf"
   "TeamAlpha_finalreport.aux"
   "TeamAlpha_finalreport.log"
+  "TeamAlpha_finalreport.pdf"

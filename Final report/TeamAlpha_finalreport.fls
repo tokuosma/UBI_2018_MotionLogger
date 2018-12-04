@@ -167,9 +167,6 @@ INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/ae/aebx9
 INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/ae/aeti9.tfm
 INPUT TeamAlpha_finalreport.bbl
 INPUT TeamAlpha_finalreport.bbl
-INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ae/t1aett.fd
-INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ae/t1aett.fd
-INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/ae/aett9.tfm
 INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/public/ae/aebx9.vf
 INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx9.tfm
 INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmib10.tfm
@@ -179,6 +176,9 @@ INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbxt
 INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/public/ae/aeti9.vf
 INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti9.tfm
 INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsl9.tfm
+INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ae/t1aett.fd
+INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ae/t1aett.fd
+INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/ae/aett9.tfm
 INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/vf/public/ae/aett9.vf
 INPUT C:/Users/OWNER/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt9.tfm
 INPUT TeamAlpha_finalreport.aux
