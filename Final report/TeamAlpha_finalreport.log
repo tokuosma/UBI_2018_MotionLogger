@@ -1,82 +1,55 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=latex 2018.12.4)  5 DEC 2018 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.17)  17 DEC 2018 13:41
 entering extended mode
-**./TeamAlpha_finalreport.tex
-(TeamAlpha_finalreport.tex
+**"f:/Repos/UBI_2018_MotionLogger/Final report/TeamAlpha_finalreport.tex"
+("f:/Repos/UBI_2018_MotionLogger/Final report/TeamAlpha_finalreport.tex"
 LaTeX2e <2018-04-01> patch level 5
-(sig-alternate-05-2015.cls
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\epsfig.st
-y"
+(sig-alternate-05-2015.cls ("F:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
-sty"
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
-y"
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
-sty"
+) ("F:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
-ics.cfg"
+) ("F:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 99.
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\dvips
-.def"
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
 )
 \epsfxsize=\dimen104
 \epsfysize=\dimen105
-)
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
-ty"
+) ("F:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
-sty"
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
-y"
+)) ("F:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip41
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
-y"
+("F:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-"
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen106
-))
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
-"
+)) ("F:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen107
-)
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
-"
+) ("F:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count80
@@ -117,27 +90,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-Document Class 'sig-alternate' <9th June '13>. Modified by G.K.M. Tobin/Gerry M
-urray/Boris Veytsman
+Document Class 'sig-alternate' <9th June '13>. Modified by G.K.M. Tobin/Gerry Murray/Boris Veytsman
 Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
 shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
 Excerpts were taken from (Journal Style) 'esub2acm.cls'.
-****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.ac
-m.org ******
+****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.acm.org ******
 Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
-
 \ACM@basesize=\count92
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\comment\comment.st
-y"
+("F:\Program Files\MiKTeX 2.9\tex\latex\comment\comment.sty"
 \CommentStream=\write3
  Excluding comment 'comment') Excluding comment 'CCSXML'
 \footheight=\dimen115
 \@maxsep=\dimen116
 \@dblmaxsep=\dimen117
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
-ty"
+ ("F:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 \aucount=\count93
@@ -161,9 +127,8 @@ Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 LaTeX Warning: You have requested document class `sig-alternate-05-2015',
                but the document class provides `sig-alternate'.
 
-Document Class: sig-alternate 2013/05/12 v2.7 based on acmproc.cls V1.3 <Nov. 3
-0 '99>
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Document Class: sig-alternate 2013/05/12 v2.7 based on acmproc.cls V1.3 <Nov. 30 '99>
+("F:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
@@ -194,21 +159,14 @@ LaTeX Info: Redefining \cite on input line 1408.
 \copyrtyr=\toks32
 \acmcopyr=\toks33
 \boilerplate=\toks34
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+("F:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(acmcopyright.sty
+) (acmcopyright.sty
 Package: acmcopyright 2014/06/29 v1.2 Copyright statemens for ACM classes
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.st
-y"
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.
-tex"
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils
-.tex"
+ ("F:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex" ("F:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
@@ -216,92 +174,348 @@ tex"
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 \copyrightetc=\toks37
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-)))
-(TeamAlpha_finalreport.aux)
+))) ("F:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("F:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count111
+\calc@Bcount=\count112
+\calc@Adimen=\dimen123
+\calc@Bdimen=\dimen124
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count113
+\calc@Cskip=\skip46
+) ("F:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+ ("F:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+ ("F:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) ("F:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)) ("F:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen125
+\AM@pageheight=\dimen126
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box30
+\AM@global@opts=\toks38
+\AM@toc@title=\toks39
+\c@AM@survey=\count114
+\AM@templatesizebox=\box31
+) (TeamAlpha_finalreport.aux)
 \openout1 = `TeamAlpha_finalreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Try loading font information for U+msa on input line 164.
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+ ("F:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen127
+\scratchbox=\box32
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen128
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks41
+) ("F:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ ("F:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)) ("F:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ ("F:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ ("F:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ ("F:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) ("F:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box33
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+ ("F:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 162.
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 164.
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+LaTeX Font Info:    Try loading font information for U+msb on input line 162.
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 164.
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+LaTeX Font Info:    Try loading font information for U+lasy on input line 162.
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 164.
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 162.
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 164.
-
-
-("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 162.
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 164.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 162.
 
-Overfull \hbox (1.92503pt too wide) in paragraph at lines 305--313
+Overfull \hbox (1.74393pt too wide) in paragraph at lines 247--259
+\T1/aer/m/n/9 questionnaire in-cluded more gen-eral in-for-ma-tion about user's
+ []
+
+
+Overfull \hbox (1.92503pt too wide) in paragraph at lines 297--305
 []\T1/aer/m/n/9 Exergame term is widely used when video games are played
  []
 
-[1
+[1{C:/Users/T&S/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-] [2]
-File: intensity_evaluation.eps Graphic file (type eps)
- <intensity_evaluation.eps> (TeamAlpha_finalreport.bbl [3]
-Overfull \hbox (11.40462pt too wide) in paragraph at lines 42--48
-\T1/aer/m/n/9 sales-[]data-[]shows-[]that-[]consumer-[]interest-[]in-[]VRis-[]w
-aning$. 
+]
+Package epstopdf Info: Source file: <players.eps>
+(epstopdf)                    date: 2018-12-17 11:52:15
+(epstopdf)                    size: 1057462 bytes
+(epstopdf)             Output file: <players-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-12-17 11:53:07
+(epstopdf)                    size: 34107 bytes
+(epstopdf)             Command: <epstopdf --outfile=players-eps-converted-to.pdf players.eps>
+(epstopdf)             \includegraphics on input line 412.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./players-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<players-eps-converted-to.pdf, id=14, 658.46pt x 435.6275pt>
+File: players-eps-converted-to.pdf Graphic file (type pdf)
+<use players-eps-converted-to.pdf>
+Package pdftex.def Info: players-eps-converted-to.pdf  used on input line 412.
+(pdftex.def)             Requested size: 226.79846pt x 150.0457pt.
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+
  []
 
-)
-LaTeX Font Info:    Try loading font information for T1+aett on input line 596.
+Package epstopdf Info: Source file: <intensity_evaluation.eps>
+(epstopdf)                    date: 2018-12-17 12:02:58
+(epstopdf)                    size: 129774 bytes
+(epstopdf)             Output file: <intensity_evaluation-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-12-17 12:05:21
+(epstopdf)                    size: 24266 bytes
+(epstopdf)             Command: <epstopdf --outfile=intensity_evaluation-eps-converted-to.pdf intensity_evaluation.eps>
+(epstopdf)             \includegraphics on input line 509.
+Package epstopdf Info: Output file is already uptodate.
 
- ("C:\Users\OWNER\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
-[4] [5
 
-] (TeamAlpha_finalreport.aux) ) 
+pdfTeX warning: pdflatex (file ./intensity_evaluation-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<intensity_evaluation-eps-converted-to.pdf, id=20, 594.22pt x 594.22pt>
+File: intensity_evaluation-eps-converted-to.pdf Graphic file (type pdf)
+<use intensity_evaluation-eps-converted-to.pdf>
+Package pdftex.def Info: intensity_evaluation-eps-converted-to.pdf  used on input line 509.
+(pdftex.def)             Requested size: 226.79846pt x 226.80331pt.
+Package epstopdf Info: Source file: <ssq.eps>
+(epstopdf)                    date: 2018-12-17 12:32:07
+(epstopdf)                    size: 199824 bytes
+(epstopdf)             Output file: <ssq-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-12-17 12:32:40
+(epstopdf)                    size: 24443 bytes
+(epstopdf)             Command: <epstopdf --outfile=ssq-eps-converted-to.pdf ssq.eps>
+(epstopdf)             \includegraphics on input line 522.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./ssq-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<ssq-eps-converted-to.pdf, id=21, 1031.855pt x 605.26125pt>
+File: ssq-eps-converted-to.pdf Graphic file (type pdf)
+<use ssq-eps-converted-to.pdf>
+Package pdftex.def Info: ssq-eps-converted-to.pdf  used on input line 522.
+(pdftex.def)             Requested size: 403.20154pt x 236.50346pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./players-eps-converted-to.pdf>]
+Overfull \hbox (4.62451pt too wide) in paragraph at lines 558--563
+[]\T1/aer/m/n/9 Heart rate data was cap-tured in real time by Fit-bit bracelet.
+ []
+
+Package epstopdf Info: Source file: <heartrate.eps>
+(epstopdf)                    date: 2018-12-17 12:46:48
+(epstopdf)                    size: 87765 bytes
+(epstopdf)             Output file: <heartrate-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-12-17 12:46:59
+(epstopdf)                    size: 21323 bytes
+(epstopdf)             Command: <epstopdf --outfile=heartrate-eps-converted-to.pdf heartrate.eps>
+(epstopdf)             \includegraphics on input line 571.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./heartrate-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<heartrate-eps-converted-to.pdf, id=29, 594.22pt x 472.76625pt>
+File: heartrate-eps-converted-to.pdf Graphic file (type pdf)
+<use heartrate-eps-converted-to.pdf>
+Package pdftex.def Info: heartrate-eps-converted-to.pdf  used on input line 571.
+(pdftex.def)             Requested size: 226.79846pt x 180.44655pt.
+Package epstopdf Info: Source file: <motiondata.eps>
+(epstopdf)                    date: 2018-12-17 12:53:20
+(epstopdf)                    size: 177248 bytes
+(epstopdf)             Output file: <motiondata-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-12-17 12:53:56
+(epstopdf)                    size: 23127 bytes
+(epstopdf)             Command: <epstopdf --outfile=motiondata-eps-converted-to.pdf motiondata.eps>
+(epstopdf)             \includegraphics on input line 590.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./motiondata-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<motiondata-eps-converted-to.pdf, id=30, 585.18625pt x 564.1075pt>
+File: motiondata-eps-converted-to.pdf Graphic file (type pdf)
+<use motiondata-eps-converted-to.pdf>
+Package pdftex.def Info: motiondata-eps-converted-to.pdf  used on input line 590.
+(pdftex.def)             Requested size: 226.79846pt x 218.63243pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 618.
+
+
+Overfull \hbox (3.59996pt too wide) in paragraph at lines 622--628
+ [][] 
+ []
+
+[4 <./intensity_evaluation-eps-converted-to.pdf>] [5 <./ssq-eps-converted-to.pdf> <./heartrate-eps-converted-to.pdf> <./motiondata-eps-converted-to.pdf>] (TeamAlpha_finalreport.bbl
+Overfull \hbox (11.40462pt too wide) in paragraph at lines 34--40
+\T1/aer/m/n/9 sales-[]data-[]shows-[]that-[]consumer-[]interest-[]in-[]VRis-[]waning$. 
+ []
+
+[6])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+pdfTeX warning: pdflatex (file ./consent.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<consent.pdf, id=54, 597.55246pt x 845.07718pt>
+File: consent.pdf Graphic file (type pdf)
+<use consent.pdf>
+Package pdftex.def Info: consent.pdf  used on input line 721.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./consent.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: consent.pdf Graphic file (type pdf)
+<use consent.pdf>
+Package pdftex.def Info: consent.pdf  used on input line 721.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./consent.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+Package pdfpages Warning: Erroneous page width of 0.0pt is corrected.
+
+
+Package pdfpages Warning: Erroneous page height of 0.0pt is corrected.
+
+
+
+pdfTeX warning: pdflatex (file ./consent.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<consent.pdf, id=57, page=1, 597.55246pt x 845.07718pt>
+File: consent.pdf Graphic file (type pdf)
+<use consent.pdf, page 1>
+Package pdftex.def Info: consent.pdf , page1 used on input line 721.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: consent.pdf Graphic file (type pdf)
+<use consent.pdf, page 1>
+Package pdftex.def Info: consent.pdf , page1 used on input line 721.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+[7]
+File: consent.pdf Graphic file (type pdf)
+<use consent.pdf, page 1>
+Package pdftex.def Info: consent.pdf , page1 used on input line 721.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: consent.pdf Graphic file (type pdf)
+<use consent.pdf, page 1>
+Package pdftex.def Info: consent.pdf , page1 used on input line 721.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: consent.pdf Graphic file (type pdf)
+<use consent.pdf, page 1>
+Package pdftex.def Info: consent.pdf , page1 used on input line 721.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [8 <./consent.pdf>] (TeamAlpha_finalreport.aux) ) 
 Here is how much of TeX's memory you used:
- 2332 strings out of 492971
- 29556 string characters out of 3126620
- 111667 words of memory out of 3000000
- 6153 multiletter control sequences out of 15000+200000
- 46430 words of font info for 62 fonts, out of 3000000 for 9000
+ 4515 strings out of 492970
+ 60732 string characters out of 3135860
+ 150852 words of memory out of 3000000
+ 8227 multiletter control sequences out of 15000+200000
+ 53818 words of font info for 76 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,34p,606b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,18n,48p,713b,535s stack positions out of 5000i,500n,10000p,200000b,50000s
+{F:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on TeamAlpha_finalreport.pdf (8 pages, 357839 bytes).
+PDF statistics:
+ 133 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on TeamAlpha_finalreport.dvi (5 pages, 31912 bytes).

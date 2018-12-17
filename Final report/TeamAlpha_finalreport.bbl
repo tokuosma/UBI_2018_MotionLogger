@@ -11,24 +11,16 @@ C.-K. Chen, T.-H. Tsai, Y.-C. Lin, C.-C. Lin, S.-C. Hsu, C.-Y. Chung, Y.-C.
 \newblock Acceptance of different design exergames in elders.
 \newblock {\em PloS one}, 13(7):e0200185, 2018.
 
-\bibitem{cdc_heartrate}
-U.~S. C. O.~D. Control.
-\newblock Target heart rate and estimated maximum heart rate.
-\newblock
-  \url{https://www.cdc.gov/physicalactivity/basics/measuring/heartrate.htm }.
-\newblock Accessed: 27.9.2018.
-
 \bibitem{national1995virtual}
 N.~R. Council et~al.
 \newblock {\em Virtual reality: Scientific and technological challenges}.
 \newblock National Academies Press, 1995.
 
-\bibitem{finkelstein2011astrojumper}
-S.~Finkelstein, A.~Nickel, Z.~Lipps, T.~Barnes, Z.~Wartell, and E.~A. Suma.
-\newblock Astrojumper: Motivating exercise with an immersive virtual reality
-  exergame.
-\newblock {\em Presence: Teleoperators and Virtual Environments}, 20(1):78--92,
-  2011.
+\bibitem{fitdigits}
+Fitdigit.
+\newblock Determining your heart rate training zones.
+\newblock \url{http://www.fitdigits.com/personalized-heart-rate-zones.html}.
+\newblock Accessed: 16.12.2018.
 
 \bibitem{fitzgerald2010effects}
 D.~Fitzgerald, N.~Trakarnratanakul, B.~Smyth, and B.~Caulfield.
@@ -54,6 +46,11 @@ M.~Gulati, L.~Shaw, M.~Lauer, R.~Thisted, H.~Black, C.~Merz, R.~Wicklund,
 \newblock In {\em CIRCULATION}, volume 112, pages U885--U885. LIPPINCOTT
   WILLIAMS \& WILKINS 530 WALNUT ST, PHILADELPHIA, PA 19106-3261 USA, 2005.
 
+\bibitem{karvonen1957effects}
+M.~J. Karvonen.
+\newblock The effects of training on heart rate: a longitudinal study.
+\newblock {\em Ann Med Exp Biol Fenn}, 35:307--315, 1957.
+
 \bibitem{kennedy1993simulator}
 R.~S. Kennedy, N.~E. Lane, K.~S. Berbaum, and M.~G. Lilienthal.
 \newblock Simulator sickness questionnaire: An enhanced method for quantifying
@@ -66,6 +63,12 @@ E.~Nalivaiko, S.~L. Davis, K.~L. Blackmore, A.~Vakulin, and K.~V. Nesbitt.
 \newblock Cybersickness provoked by head-mounted display affects cutaneous
   vascular tone, heart rate and reaction time.
 \newblock {\em Physiology \& behavior}, 151:583--590, 2015.
+
+\bibitem{vrhealth_met}
+V.~I. of~Health and Exercise.
+\newblock Vr exercise ratings.
+\newblock \url{https://vrhealth.institute/vr-ratings/}.
+\newblock Accessed: 5.12.2018.
 
 \bibitem{oh2010defining}
 Y.~Oh and S.~Yang.
@@ -81,6 +84,12 @@ T.~G. Plante, A.~Aldridge, R.~Bogden, and C.~Hanelin.
 L.~Rebenitsch and C.~Owen.
 \newblock Review on cybersickness in applications and visual displays.
 \newblock {\em Virtual Reality}, 20(2):101--125, 2016.
+
+\bibitem{pulsewatch}
+N.~Ricci.
+\newblock Pulse watch.
+\newblock \url{https://iccir919.github.io/pulseWatch/public/index.html}, 2018.
+\newblock Accessed: 10.12.2018.
 
 \bibitem{robergs2002surprising}
 R.~A. Robergs and R.~Landwehr.

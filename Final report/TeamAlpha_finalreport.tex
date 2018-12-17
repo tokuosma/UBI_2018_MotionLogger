@@ -46,11 +46,10 @@
 % For tracking purposes - this is V2.0 - May 2012
 
 \documentclass{sig-alternate-05-2015}
+\usepackage{pdfpages}
 
 % Use Roman numerals for tables
 \renewcommand{\thetable}{\Roman{table}}
-
-
 
 \begin{document}
 
@@ -153,16 +152,15 @@ Toni Kuosmanen
 % author on the opening page (as the 'third row') but we ask,
 % for aesthetic reasons that you place these 'additional authors'
 % in the \additional authors block, viz.
-\additionalauthors{Additional authors: John Smith (The Th{\o}rv{\"a}ld Group,
-email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
-(The Kumquat Consortium, email: {\texttt{jpkumquat@consortium.net}}).}
-\date{30 July 1999}
+% \additionalauthors{Additional authors: John Smith (The Th{\o}rv{\"a}ld Group,
+% email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
+% (The Kumquat Consortium, email: {\texttt{jpkumquat@consortium.net}}).}
+% \date{30 July 1999}
 % Just remember to make sure that the TOTAL number of authors
 % is the number that will appear on the first page PLUS the
 % number that will appear in the \additionalauthors section.
-
 \maketitle
-\begin{abstract}
+% \begin{abstract}
 % This paper provides a sample of a \LaTeX\ document which conforms,
 % somewhat loosely, to the formatting guidelines for
 % ACM SIG Proceedings. It is an {\em alternate} style which produces
@@ -185,7 +183,7 @@ email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
 % output produced by the dvi file. A compiled PDF version
 % is available on the web page to help you with the
 % `look and feel'.
-\end{abstract}
+% \end{abstract}
 
 
 %
@@ -236,43 +234,37 @@ email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
 % We no longer use \terms command
 %\terms{Theory}
 
-\keywords{ACM proceedings; \LaTeX; text tagging}
+\keywords{VR; Exergames; Heartrate;}
 
 \section{INTRODUCTION AND MOTIVATION}
 The aim of this study is to detect the physical benefits in virtual reality 
 (VR) gaming. To get to the goal the heart rate of the subjects is going to 
-be measured in rest and during the game. Also, subjects are asked to fill 
-questionnaire about their exercise and gaming habits. There is also going 
-to be question about the VR game experience. The goal is to see if VR games 
-have physical effects in user and also if user enjoys exercising with the 
-VR game.
+be measured in rest and during the game. Also, subjects are interviewed about 
+their exercise and gaming habits. There is also going to be questions about 
+the VR game experience. The goal is to see whether VR games have physical 
+effects to user and if user enjoys exercising with the VR game.
 
-While deciding the research area we get motivated by the paper of Finkelstein 
-et al. (2011). \cite{finkelstein2011astrojumper} Their study was about 
-motivation to exercise by exergames. 
-They designed game called Astrojumper which forces the user to move his/her 
-whole body while playing. Player flies in outer space and swerve around, 
-duck under and jump over virtual planets. They studied the effectiveness 
-of this kind of game by measuring the heart rate before the game session 
-and after the game session. One game session lasted 15 minutes. To get 
-more information about the motivational part of the game they also asked 
-the test users to fill pre- and post-questionnaires. Pre-questionnaire 
-included more general information about users exercise habits and experiment 
-with video games. In post-questionnaire the questions were focused on to 
-the game session. It was shown that virtual reality games have strong 
-potential to motivate to physical activity both adults and children.
+Motivation to exercise by exergames have been studied. Finkelstein et al. 
+(2011) designed a game called Astrojumper which forces the user to move 
+his/her whole body while playing. Player flies in outer space and swerve 
+around, duck under and jump over virtual planets. They studied the 
+effectiveness of this kind of game by measuring the heart rate before the 
+game session and after the game session. One game session lasted 15 minutes. 
+To get more information about the motivational part of the game they also 
+asked the test users to fill pre- and post-questionnaires. Pre-questionnaire 
+included more general information about user’s exercise habits and experiment 
+with video games. In post-questionnaire the questions were focused on to the 
+game session. It was shown that virtual reality games have strong potential 
+to motivate to physical activity both adults and children.
 
 Finkelstein et al. (2011) made their research seven years ago and the VR 
-equipment are highly improved since then. In their study a user had a 
-control backpack in his/hers back with many wires leading from there. 
-The game setting in Astrojumper is highly different than what we are using 
-in our study. The monitors are placed around the user while we are going 
-to use VR glasses. Movement trackers are on the forehead, wrists and waist 
-in the Astrojumper. This also forced the user to move his/her whole body 
-while we are having games only with controller sticks. In our study we 
-are using VR glasses with wireless control sticks. In Finkelstein et al. 
-(2011) study they had problems with heart rate measurements during the game 
-session and we try to avoid those problems by using newer technique. 
+equipment are highly improved since then. In their Astrojumper study a user 
+had a control backpack in his/hers back with many wires leading from there. 
+The game setting in Astrojumper is highly different than what it is nowadays. 
+The monitors are placed around the user while today user needs VR glasses with 
+wireless control sticks. Movement trackers are on the forehead, wrists and 
+waist in the Astrojumper. Finkelstein et al. (2011) had problems with heart 
+rate measurements during the game session.
 
 \section{RELATED WORK}
 \subsection{Virtual reality games}
@@ -334,219 +326,378 @@ of the maximum heart rate:
 \begin{equation}\%HR = \frac{HR}{HR_{max}}\end{equation}
 
 Although the maximum heart rate varies greatly between individuals, 
-it can be estimated without measurement if the persons age is known. 
-For example, Robergs et al. (2002) \cite{robergs2002surprising} suggest the formula:
+it can be estimated without measurement if the persons age is known:
 
-\begin{equation}HR_{max} = 205.8 - 0.685 * age\end{equation}
+\begin{equation}HR_{max} = 210 - 0.5 * age\end{equation}
 
-as the most acceptable estimate of maximum heart rate. Gulati et al. 
-\cite{gulati2005heart} propose a slightly different age scaling factor of 0.88 for women. 
-United States Center of Disease Control \cite{cdc_heartrate} recommends target heart 
-rates of 50 - 70 \% for moderate exercise and 70 - 85 \% for vigorous 
-exercise.
+Many different versions of the formulas exist, although none have been found 
+to be very reliable \cite{robergs2002surprising}. Gulati et al. (2010) propose a slightly different age scaling factor of 0.88 for women.
+as the most acceptable estimate of maximum heart rate. Gulati et al. \cite{gulati2005heart} 
+propose a slightly different age scaling factor of 0.88 for women.
 
-\section{SENSING APPLICATION}
-\subsection{Design}
-Our research is based around VR games. VR game set includes VR glasses, 
-motion controllers, base stations and a computer. The purpose is to track 
-the movement, our goal is to capture the data directly from the VR 
-hardware. 
+Another method used to gauge the exercise intensity is the heart rate reserve 
+\cite{karvonen1957effects}). Instead of scaling the heart rate directly to the 
+maximum heart rate, the subjects heart rate reserve is calculated using the formula:
 
-Measuring the heart rate, we use sensor that allows continuous measurement 
-during test. The best solution is to have a heart rate monitor which can 
-be attached to player’s wrist since it will not fall or start moving so 
-easily. Additionally, we measure the resting heart rate before performance.
+\begin{equation}HR_{RESERVE} = HR_{MAX} - HR_{REST}\end{equation}
 
-Participants are going to be interviewed before game session, between two 
-game sessions and after both game sessions. Participants are asked to 
-answer questions about their general background, exercising background, 
-gaming background and about the VR game experience. We also ask if user 
-felt any cybersickness during or after the game sessions. 
+Relative heart rate can then be used to detect the changes in the heart rates. 
+Relative heart rate is calculated with the following formula:
 
-There will be used two different games and each participant will play both. 
-Other game is more hectic, an exergame-like game, and other is easier going.
+\begin{equation}HRR = \frac{HR - HR_{REST}}{HR_{RESERVE}} * 100\%\end{equation}
 
-\subsubsection{Cybersickness and heart rate}
-As mentioned earlier, many VR users experience some degree of cybersickness. 
-High levels of nausea can lead to increased heart rate without any physical 
-activity \cite{nalivaiko2015cybersickness}. In order to find out if the observed increase 
-in heart rate is caused by onset of cybersickness instead of exercise, we ask 
-our test users the Simulator Sickness Questionnaire (SSQ) \cite{kennedy1993simulator} 
-after the game sessions. The SSQ, which was originally developed for military air 
-simulation use, has been widely used in cybersickness research. The SSQ measures 
-16 different symptoms on a four-point scale. The symptoms are grouped to three 
-different categories: oculomotor symptoms, disorientation, and nausea. From 
-the raw data a score for each of the three main symptom categories and a total 
-score can be calculated (SSQ-O, SSQ-D, SSQ-N, and SSQ-T respectively). As nausea 
-is the symptom mostly linked with increased heart rate, we will have to keep an 
-eye on the SSQ-N scores.
+During training, different target heart rate zones can be set, depending on the 
+goal of the exercise. For example, Fitdigits, a smart device based fitness application, 
+suggests HRR values of over 50\% for light aerobic recovery and values of over 60\% 
+for endurance training \cite{fitdigits}.  
 
-\subsection{Implementation}
-VR gaming device which includes HTC Vive visor, two motion controllers and 
-two base stations are set in demo room inside Oulu university faculty of 
-information technology and electrical engineering. We gather 17 participants 
-to play two different games and we measure heart rate and movement data from 
-them while they are playing. For heart rate measurement we are using two 
-Fitbit Charge HR wristband devices as other one can be placed on next participant’s 
-wrist while he/she is waiting his/her turn. Also, if either of the devices 
-stops working, we can still use the other one for measuring. This way we 
-can ensure data collection and keep the game sessions going on fluently. 
-Data from these devices are synchronized to Fitbit web service via Fitbit 
-mobile application. Heart rate data is extracted from these devices afterwards 
-using 3rd party web service called “Pulse Watch” and exported to csv-file which 
-can be then downloaded for further analyzing. Collected heart rate data will 
-be from each second during game session.
+\section{DESIGN}
+To evaluate the potential health benefits, we chose two VR games available on the Steam 
+platform. The two games were chosen based on their metabolic equivalent (MET) scores 
+provided by VR Institute of Health and Exercise \cite{vrhealth_met}. The first game 
+chosen was an arcade style archery simulation called QuiVR. VR Health Institute rates 
+the game at 2.73 METs, roughly equivalent to walking or doing light housework. For the 
+second game, we chose a more intense rhythm game called BeatSaber. In the game the player 
+must cut moving colored blocks and dodge around obstacles. VR health institute gives the 
+game an average METs score of 6.24, roughly equivalent of playing tennis or jogging. 
+Our aim in choosing two games with different MET scores was twofold. First, we wanted to 
+find out if even a game of modest activity could be considered exercise. Second, we wanted 
+to see if a more active game be comparable to traditional physical exercise. 
 
-For movement data collecting we are using additional capture software which 
-is run parallel to the VR game. This software will collect position data from 
-VR visor and two motion controllers and save that position data with timestamps 
-to a plain text file for later analysis. 
+We chose the users heart rate as the main measure of exercise intensity. For measuring the 
+heartrate, we obtained two Fitbit Charge HR activity bracelets. The device measures the 
+heart rate at an interval of five seconds. The measurements are stored on the device until 
+they are synced to the Fitbit cloud service using a connected mobile phone. Afterwards, 
+the heart rate data could be retrieved using a third-party application called Pulse Watch 
+\cite{pulsewatch}. 
 
-At the beginning the participant is sat down and Fitbit heart rate bracelet 
-is attached to their wrist. Then participants will be interviewed. Interview 
-includes question about their background of exercising, video games and general. 
-They are also asked to fill consent form (Attachment 1). Interview continues after 
-first gaming session with questions about the exact gaming session. After second 
-gaming session participants are interviewed with questions about the latter gaming 
-session. Final interview also includes questions about SSQ, and questions based 
-on their experience about exergames. 
+To compliment the heart rate data, we decided to also capture motion data from the VR 
+game set. The set includes an HMD unit and two motion controllers. The position of each 
+of these devices is tracked by two beacons. For logging this positional data, we 
+prepared a simple program that could be ran parallel with the chosen games. While active, 
+the program samples the device position and orientation at a rate of 5 Hz and outputs the 
+data to a csv file. 
 
-We start each game session by introducing participant to the game he/she will be 
-playing. Participant will be given 10 minutes of time to play each of the games. 
-Each participant will be given an ID number which is then used to connect heart 
-rate data, movement data and questionnaire answers together.
+We prepared a multi-part interview to gain information if VR games increase exercise motivation. 
+The first part of the interview dealt with participants gaming and exercise background and 
+was held before the first game session. The second part of the interview was completed after 
+first game session, and last part was after both sessions. Participants are asked to answer 
+questions about their general background, exercising background, gaming background and about 
+the VR game experience. 
+
+\subsection{Cybersickness and heart rate}
+As mentioned earlier, many VR users experience some degree of cybersickness. High levels 
+of nausea can lead to increased heart rate without any physical activity \cite{nalivaiko2015cybersickness}. 
+In order to find out if the observed increase in heart rate is caused by onset of cybersickness 
+instead of exercise, we decided to include the standard Simulator Sickness Questionnaire 
+(SSQ) \cite{kennedy1993simulator} as part of our survey. The SSQ, which was originally 
+developed for military air simulation use, has been widely used in cybersickness research. 
+The SSQ measures 16 different symptoms on a four-point scale. The symptoms are grouped to 
+three different categories: oculomotor symptoms, disorientation, and nausea. From the raw 
+data a score for each of the three main symptom categories and a total score can be calculated 
+(SSQ-O, SSQ-D, SSQ-N, and SSQ-T respectively). SSQ was filled immediately after the participants 
+had completed both game sessions.  Since nausea is the symptom mostly linked with increased 
+heart rate, we paid special attention to the SSQ-N scores.
 
 \section{EVALUATION}
 \subsection{Evaluation plan}
-Based on the study results, we are trying to find clear evidence that 
-playing VR games really have health benefits and they activate and 
-inspire people to move more than usually. We are also keen on finding 
-results we did not expect based on interviews and data analysis.
-
-We will compare heart rates of the user between two different VR games 
-to detect if the exergame have raised users heart rate. We also detect 
-the movements of hands and head during game session to compare if the 
-exergame has moved users. By movement detection we exclude users heart 
-rate increase caused by excitement. 
-
-Interview results may also be interested here. Even we hope to detect 
-that more hectic game, BeatSaber, moves people more and raises their 
-heart beat than QuiVR, participants may still think that it is neither 
-fun nor exercising. It is also interesting to see if people would more 
-easily recommend exergames to others instead of using those by themselves. 
-It would also be interesting to see whether users rate more hectic 
-BeatSaber being more intense than QuiVR. It is interesting to see if the 
-game order matters to users thoughts.
-
-\subsection{Research data}
-During the game session we gathered three types of data from test users. 
-We gave them a Fitbit bracelet which measured heart rate in real time. 
-We collected qualitative data from users by interviewing users before 
-game session, after first game session and finally after second game 
-session. We also had SSQ interview to participants. We gathered movement 
-data from hand consoles and VR glasses via capture software which was 
-run parallel to the VR game.
-\subsubsection{Interview data}
-Test users were at the beginning asked to fill consent form. 
-There their permission to use their data in this study was asked. After 
-users were given their permission, the interviews were continued. First, 
-they were asked some general information about their age and gender. 
-Age information was gathered in order to calculate theoretical maximum 
-heart rate. Low rate of women participants prevents data comparison 
-between genders. In the interview, users’ weekly activity with sports 
-and with computer or console games were asked as for background information. 
-Users were also asked if they have used VR applications before. After first 
-phase interview user played ten minutes either BeatSaber or QuiVR game. 
-
-After first game session interview was continued by asking how user was 
-feeling after the game. Users’ were also asked how intense they would 
-rate the game session in a scale from one to five. User then played 
-ten minutes the second game.
-
-After second game session user were asked again how they feel, and 
-how intense they would rate the game session. To cut off the effect 
-of simulator sickness, user was asked sixteen questions according 
-to Kennedy et al. (1993) SSQ. Next part of the interview we asked 
-if user sees himself/herself playing VR games for exercise meaning 
-and for fun in scale one to five. And for final part we asked, 
-would user play virtual reality games in exercise context and would 
-he/she recommend that to others in scale one to five. Users had 
-also a chance to say any comment about the whole experience.
-
-Interview results about user’s physical activity and computer or 
-console game activity, as well as if user would play VR games and 
-if user would play them for exercise purpose or if they would 
-encourage user to exercise more and if user would recommend VR 
-games for exercise purpose to someone else, are shown in Table I. 
-Users were also asked to rank the intense of the game session 
-(from scale 1 to 5) after each session. Their results are shown 
-in Figure 1. 
+Our VR gaming device which included HTC Vive visor, two motion controllers and two base 
+stations which were set Ubicomp demo room inside Oulu university faculty of information 
+technology and electrical engineering. We gathered 17 participants to play two different 
+games. The experiments took place between 30.10 – 1.11.2018, during which a 30-minute 
+time session was reserved for each participant. 
 
 \begin{figure}
-\centering
-\includegraphics{intensity_evaluation}
-\caption
-    {
-        Users evaluation of intense of game session. 
-    }
+    \centering
+    \includegraphics[width=0.45\textwidth]{players}
+    \caption
+        {
+            Participants had two game sessions, each for 10 minutes. 
+            Order of game sessions was randomly chosen. Participants played 
+            BeatSaber and QuiVR games. 
+        }
 \end{figure}
 
+At the beginning of their sessions the participant was sat down, and the Fitbit activity 
+bracelet was attached to their wrist and the heart rate measurements started immediately. 
+This was done in order to get an estimate of the participants resting heart rate.  
+Participants were asked to fill a consent form (Attachment 1) and the first part of the 
+survey. To protect the privacy of all the volunteers, each participant was assigned an 
+ID number which was then used to connect heart rate, movement data and survey answers 
+together. 
+
+The order in which the games were played was alternated between participants. At the 
+start of both gaming sessions, the participants were given a brief tutorial to get them 
+accustomed to the controls. When the tutorial was completed, the motion logger was 
+turned on and the actual gaming session was commenced. Both gaming sessions lasted for 
+ten minutes (Figure 1). The start and end times were recoded, so that the heart rate 
+data could be synchronized afterwards. After the first game session the participant was 
+asked to rate the physical intensity of their game session. If their heart rate had 
+increased noticeably, they were also given a small break so that the heart rate could 
+climb down back to the levels observed before starting the first gaming session. 
+
+The SSQ was administered immediately after the second gaming session had concluded. 
+The participants were asked if they had any of the listed symptoms and if they did, 
+they were asked to rate the severity of their symptoms on a four-point scale.  The 
+final part of the survey, which dealt mainly with how the participant felt about VR 
+based exercise based on their experience, was also filled. 
+
+\subsection{Research data}
+During the game session we gathered three types of data from test users. We gave 
+them a Fitbit bracelet which measured heart rate in real time. We collected qualitative 
+data from users by interviewing users before game session, after first game session and 
+finally after second game session. We also had SSQ interview to participants. We gathered 
+movement data from hand consoles and VR glasses via capture software which was run parallel 
+to the VR game.
+
+\subsubsection{Data from interviews}
+During the first part of the survey, the participants were asked for some general background 
+information. Participants age was recorded in order to calculate theoretical maximum 
+heart rate. Gender was also recorded, but the low rate of women participants prevents data 
+comparison between genders. Participants were asked to describe their weekly amount of physical 
+exercise and how many hours a week they spend playing console or video games. Participants were 
+also asked if they had used VR applications before. 
+
+After first game session interview was continued by asking how user was feeling after the 
+game. Users’ were also asked how intense they would rate the game session in a scale from 
+one to five. After second game session participant was asked again how they feel, and 
+how intense they would rate the game session. At the last part of the interview participant 
+was asked whether he/she sees himself/herself playing VR games for exercise meaning and 
+for fun in scale one to five. Whether participant would play virtual reality games in 
+exercise context and would he/she recommend that to others in scale one to five. 
+Participants had also a chance to say any comment about the whole experience. Results from 
+interview are shown in Table I. Intensity of the game session results are shown in Figure 2.
+
 \begin{table}
-\centering
-\caption
-{
-    Survey results.
-    Q1: How many times a week you do sports? (at least 30 mins of exercising per time)
-    Q2: How many hours do you usually play computer games or console games in a week?
-    Q3: Could you see yourself playing virtual reality games more often just for fun?
-    Q4: Could you see yourself playing a virtual reality games more often for exercise purposes?
-    Q5: Would VR playing encourage you to exercise more?
-    Q6: Would you recommend VR gaming as an exercise for anyone?
-}
-\begin{tabular}{c|c c c c c c} \hline
-    % ID&How many times a week you do sports? (at least 30 mins of exercising per time)&How many hours do you usually play computer games or console games in a week?&Could you see yourself playing virtual reality games more often just for fun?&Could you see yourself playing a virtual reality games more often for exercise purposes?&Would VR playing encourage you to exercise more?&Would you recommend VR gaming as an exercise for anyone?\\ \hline
-    ID&Q1&Q2&Q3&Q4&Q5&Q6 \\ \hline
-    3&2&10&5&5&4&5\\
-    4&3&0&5&3&3&3\\
-    7&3&7&5&3&2&4\\
-    8&4&0&4&4&2&2\\
-    10&3&3&5&4&2&3\\
-    12&4&1&4&2&4&5\\
-    13&2&2&5&3&2&5\\
-    16&3&25&5&1&1&2\\
-    17&4&0&4&1&3&2\\
-    18&5&4&4&1&1&2\\
-    22&4&5&4&3&2&2\\
-    23&2&5&5&3&4&2\\
-    25&1&0&3&4&2&5\\
-    26&1&30&5&4&3&3\\
-    27&10&4&5&3&2&4\\
-    29&3&0&5&4&4&4\\
-    30&1&2&5&2&4&5\\ \hline
-    Avg&3.2&5.8&4.6&2.9&2.6&3.4
-\end{tabular}
+    \centering
+    \caption
+    {
+        Survey results.\newline
+        Q1: How many times a week you do sports? (at least 30 mins of exercising per time)\newline
+        Q2: How many hours do you usually play computer games or console games in a week?\newline
+        Q3: Could you see yourself playing virtual reality games more often just for fun?\newline
+        Q4: Could you see yourself playing a virtual reality games more often for exercise purposes?\newline
+        Q5: Would VR playing encourage you to exercise more?\newline
+        Q6: Would you recommend VR gaming as an exercise for anyone?\newline
+    }
+    \begin{tabular}{c|c c c c c c} \hline
+        % ID&How many times a week you do sports? (at least 30 mins of exercising per time)&How many hours do you usually play computer games or console games in a week?&Could you see yourself playing virtual reality games more often just for fun?&Could you see yourself playing a virtual reality games more often for exercise purposes?&Would VR playing encourage you to exercise more?&Would you recommend VR gaming as an exercise for anyone?\\ \hline
+        ID&Q1&Q2&Q3&Q4&Q5&Q6 \\ \hline
+        3&2&10&5&5&4&5\\
+        4&3&0&5&3&3&3\\
+        7&3&7&5&3&2&4\\
+        8&4&0&4&4&2&2\\
+        10&3&3&5&4&2&3\\
+        12&4&1&4&2&4&5\\
+        13&2&2&5&3&2&5\\
+        16&3&25&5&1&1&2\\
+        17&4&0&4&1&3&2\\
+        18&5&4&4&1&1&2\\
+        22&4&5&4&3&2&2\\
+        23&2&5&5&3&4&2\\
+        25&1&0&3&4&2&5\\
+        26&1&30&5&4&3&3\\
+        27&10&4&5&3&2&4\\
+        29&3&0&5&4&4&4\\
+        30&1&2&5&2&4&5\\ \hline
+        Avg&3.2&5.8&4.6&2.9&2.6&3.4
+    \end{tabular}
 \end{table}
 
-\section{Conclusions}
-This paragraph will end the body of this sample document.
-Remember that you might still have Acknowledgments or
-Appendices; brief samples of these
-follow.  There is still the Bibliography to deal with; and
-we will make a disclaimer about that here: with the exception
-of the reference to the \LaTeX\ book, the citations in
-this paper are to articles which have nothing to
-do with the present subject and are used as
-examples only.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{intensity_evaluation}
+    \caption
+        {
+            Users evaluation of intense of game session. Users, who played BeatSaber 
+            first, evaluated the intense of the game session in average 3.00 in scale 
+            one to five, and users playing QuiVR first 2.22. Users who played BeatSaber 
+            in second game session evaluated the intense of the game in average 3.11, 
+            and users who played QuiVR in second game session 2.58.
+        }
+\end{figure}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=0.80\textwidth]{ssq}
+    \caption
+        {
+            Simulator sickness questionnaire results from each participant. 
+            SSQ-N results shows weighted results of nausea symptoms, SSQ-O 
+            results shows weighted results of oculomotor symptoms, SSQ-D 
+            shows weighted results of disorientation symptoms and SSQ-T 
+            shows total results.
+        }
+\end{figure*}
+
+To ensure that the increase in subjects heart rate was not caused by the onset of cybersickness, 
+we asked each subject to answer the simulator sickness questionnaire immediately after the second 
+game session. The questionnaire consists of a list of sixteen symptoms associated with cybersickness. 
+Simulator sickness questionnaire data was gathered from users after game session and the data is 
+summarized to show three main symptom clusters of the questionnaire. Answers to these questions are 
+ranked to be 0 if user don’t have the symptom, 1 if user feels slightly to have a symptom, 2 if user feels the symptom as moderate and 3 if user feels the symptom being severe. 
+Different clusters are oculomotor (SSQ-O), disorientation (SSQ-D) and nausea (SSQ-N). SSQ-O 
+includes the results about general feeling, fatigue, difficulty concentration, eye strain, 
+difficulty focusing, blurred vision and headache. SSQ-D includes the results about difficulty 
+focusing, nausea, “fullness of head”, blurred vision, dizziness with eyes open and closed, 
+and vertigo. SSQ-N includes the results about general feeling, difficulty concentrating, 
+nausea, stomach awareness, increased salivation, sweating and burping. SSQ total (SSQ-T) is 
+calculated from the three clusters as a total value. Formulas used to get SSQ-O, SSQ-D, and 
+SSQ-N scores are as follows:
+
+\begin{equation}SSQ-O = \sum{O-cluster} * 7.58\end{equation}
+
+\begin{equation}SSQ-D = \sum{D-cluster} * 13.92\end{equation}
+
+\begin{equation}SSQ-N = \sum{N-cluster} * 9.54\end{equation}
+
+And the total SSQ is calculated as the sum of the all the symptoms and multiplied with 3,74. 
+Results are shown as a graph in Figure 2.
+
+\subsubsection{Heart rate data}
+Heart rate data was captured in real time by Fitbit bracelet. The bracelet 
+measured the heart rate five seconds. The raw data was exported from Fitbit 
+cloud storage using the PulseWatch application. Out of the 17 test users the 
+data was successfully gathered from 14 participants. The data from three test 
+subjects was lost due to connectivity issues with the Fitbit device. 
+
+Participants maximum heart rate and relative heart rates were estimated using 
+formulas 2, 3 and 4. Resting heart rate was measured from the participants while 
+they were being interviewed for the first part of the survey. The average relative 
+heart rates for both game sessions are shown in figure 3.  
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{heartrate}
+    \caption
+        {
+            Average heart rates of participants at each game session.
+        }
+\end{figure}
+
+\subsubsection{Movement data}
+
+Test user’s movement data was collected using the capture program which was running 
+parallel to the VR game. The program sampled the position and orientation data from 
+all the three devices at a rate of 5 Hz. Each sample, including the current timestamp, 
+was saved as a row to a result file. By calculating the displacement between each 
+successive row, an estimate of the distance travelled by each device was obtained. 
+The total distance was calculated by simply summing the travelled distance from all 
+three devices. The total distance travelled by each user is shown in Figure 4. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{motiondata}
+    \caption
+        {
+            Movement data (total distance travelled) from each participants shown from different game sessions.
+        }
+\end{figure}
+
+\subsection{Analysis of the data}
+
+\subsubsection{Analysis of interviews}
+Users did enjoy the game sessions. They said that gaming experience was fun, 
+and some of them said that it was challenging. Participants rated BeatSaber 
+slightly more intense game than QuiVR (Figure 2). As shown in Table I, 
+participants ranked 4.6 out of five that they would play VR games for fun. 
+Participants had neutral answers (2.6 out of five) to question, if VR games 
+would encourage them to exercise more. Although, participants were more 
+willing to recommend the VR games as an exercise form to someone else 
+(3.4 out of five). Participants background with exercising or with videogames 
+were irrelevant to the results.
+
+The simulator sickness questionnaire did not show any critical results. 
+Results are shown in Figure 3. User with an ID 12 had high weighted value of 
+SSQ-D but the raw data includes only answers “slight” (value 1). SSQ-N 
+results are shown higher peaks, but SSQ-N includes the weighted values 
+from increasing sweating. Sweating is most likely caused by moving during 
+games.
+
+\subsubsection{Analysis of heart rate data}
+\begin{table}[]
+    \centering
+    \caption
+    {Average relative HR values before and after the game sessions. n=14}
+    \begin{tabular}{cccccc} \hline
+    &\multicolumn{2}{c}{Start}&\multicolumn{2}{c}{End}\\
+    Game&Avg HR&STD&Avg HR&STD&Dif. HR\\\hline
+    QuiVR&36&7&41&10&5\\
+    BeatSaber&37&7&57&10&10 \\ \hline
+    \end{tabular}
+\end{table}
+
+Average heart rate data from 14 participants (Table II) shows that in 
+BeatSaber game session participants relative heart rates raised approximately 
+20 percent, while in QuiVR heart rates stayed in the same. Twelve subjects 
+reached the target HR zone of 50\% their maximum heart rate while playing 
+BeatSaber. 
+
+\subsubsection{Analysis of the movement data}
+
+Users movements were detected during game sessions, and distance participant 
+moved during game sessions were calculated. In Figure 5, it can be seen that 
+users moved more while playing BeatSaber than QuiVR.
+
+\section{DISCUSSION}
+During the interviews, the subjects did not rank either game as being very 
+intense, with QuiVR and BeatSaber receiving average scores of 2.3 and 3 out 
+of five respectively. The subjects felt unsure if VR games could motivate 
+them to exercise more. However, most viewed the experience positively and 
+some could see themselves recommending VR games as exercise for someone 
+else even if they felt they did not benefit from it themselves. Even VR 
+equipment have become more frequent, they still are quite expensive and 
+cannot be found in every home. This might be a reason participant did 
+not see themselves playing VR exergames as an exercise purpose.
+
+As can be seen from Figure 4. the heart rate in BeatSaber game raise 
+during the whole game session and it probably have been raised higher 
+if the game session had been continued more than 10 minutes. In QuiVR 
+game session the heart rates of participant did not raised, and it is 
+hard to predict if it has been raised if the game session has been longer.
+
+It is confirmed with the movement data (Figure 5) that heart rates did 
+not raise just because the game was excited. It can be seen clearly that 
+participant had more movements when they played BeatSaber. 
+
+In some cases when a person is playing a VR game, he/she experience 
+cybersickness. One symptom of cybersickness is rising heart rate. To 
+exclude the heart rate rising due to cybersickness, participant also 
+had simulator sickness questionnaire by Kennedy et al. (1993). This 
+questionnaire confirmed that no one of the test users had cybersickness. 
+Used games, BeatSaber and QuiVR, are popular and one reason of that is 
+their good quality.
+
+\section{CONCLUSIONS}
+Active VR games can raise the heart rate to levels comparable to 
+normal exercise. The game with more relaxed gameplay did not manage 
+to raise heart rate to similar levels. Although the participants viewed 
+VR games in a positive light, the effects on exercise motivation are 
+hard to gauge based on the small sample size and cross-sectional nature 
+of our study. In the future it would be interesting to see how a VR 
+based exercise regimen might affect exercise motivation in the long term.  
+
 %\end{document}  % This is where a 'short' article might terminate
 
 %ACKNOWLEDGMENTS are optional
 \section{Acknowledgments}
-This section is optional; it is a location for you
-to acknowledge grants, funding, editing assistance and
-what have you.  In the present case, for example, the
-authors would like to thank Gerald Murray of ACM for
-his help in codifying this \textit{Author's Guide}
-and the \textbf{.cls} and \textbf{.tex} files that it describes.
+We would like to thank to professor Timo Ojala who made this study 
+possible by organizing the Ubiquitous Computing Fundamentals course. 
+We would also like to thank course assistants Paula Alavesa and Aku Visuri. 
+With the guidance from Alavesa and Visuri we were able to proceed this 
+study. Especially we would like to thank all participants who were willing 
+to give an hour of their time for this study.
+
+\section{Contributions}
+Kivelä, Oona: Design, performing an experiment, writing, presentation, analysis of results, recruit participant, project manager
+
+Kuosmanen, Toni: Design, performing an experiment, experiment setup, coding, writing, presentation, analysis of results, recruit participants
+
+Lämpsä, Timo: Design, performing an experiment
+
+Mustajärvi, Leevi: Design, performing an experiment, experiment setup, writing, presentation, recruit participants
+
+Soudunsaari, Joonas: Design, performing an experiment, experiment setup, recruit participants
 
 %
 % The following two commands are all you need in the
@@ -563,51 +714,9 @@ and the \textbf{.cls} and \textbf{.tex} files that it describes.
 %
 %APPENDICES are optional
 %\balancecolumns
+\pagebreak
 \appendix
 %Appendix A
-\section{Headings in Appendices}
-The rules about hierarchical headings discussed above for
-the body of the article are different in the appendices.
-In the \textbf{appendix} environment, the command
-\textbf{section} is used to
-indicate the start of each Appendix, with alphabetic order
-designation (i.e. the first is A, the second B, etc.) and
-a title (if you include one).  So, if you need
-hierarchical structure
-\textit{within} an Appendix, start with \textbf{subsection} as the
-highest level. Here is an outline of the body of this
-document in Appendix-appropriate form:
-\subsection{Introduction}
-\subsection{The Body of the Paper}
-\subsubsection{Type Changes and  Special Characters}
-\subsubsection{Math Equations}
-\paragraph{Inline (In-text) Equations}
-\paragraph{Display Equations}
-\subsubsection{Citations}
-\subsubsection{Tables}
-\subsubsection{Figures}
-\subsubsection{Theorem-like Constructs}
-\subsubsection*{A Caveat for the \TeX\ Expert}
-\subsection{Conclusions}
-\subsection{Acknowledgments}
-\subsection{Additional Authors}
-This section is inserted by \LaTeX; you do not insert it.
-You just add the names and information in the
-\texttt{{\char'134}additionalauthors} command at the start
-of the document.
-\subsection{References}
-Generated by bibtex from your ~.bib file.  Run latex,
-then bibtex, then latex twice (to resolve references)
-to create the ~.bbl file.  Insert that ~.bbl file into
-the .tex source file and comment out
-the command \texttt{{\char'134}thebibliography}.
-% This next section command marks the start of
-% Appendix B, and does not continue the present hierarchy
-\section{More Help for the Hardy}
-The sig-alternate.cls file itself is chock-full of succinct
-and helpful comments.  If you consider yourself a moderately
-experienced to expert user of \LaTeX, you may find reading
-it useful but please remember not to change it.
-%\balancecolumns % GM June 2007
-% That's all folks!
+\section{Consent form}
+\includepdf[pages={1}]{consent.pdf}
 \end{document}
